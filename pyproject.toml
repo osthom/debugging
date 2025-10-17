@@ -1,0 +1,12 @@
+[project]
+name = "debugging-q4"
+version = "0.1.0"
+description = "CCHC Assessment Debugging Q4"
+authors = [{ name = "Oliver Thompson", email = "thompsonsoliver@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8,<3.14"
+dependencies = [
+    "dash",
+    "numpy",
+    "pandas"
+]

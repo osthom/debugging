@@ -1,3 +1,14 @@
+Metadata-Version: 2.4
+Name: debugging-q4
+Version: 0.1.0
+Summary: CCHC Assessment Debugging Q4
+Author-email: Oliver Thompson <thompsonsoliver@gmail.com>
+Requires-Python: <3.14,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: dash
+Requires-Dist: numpy
+Requires-Dist: pandas
+
 ## Programmer Assessment Q4
 
 This repository contains a broken web app built with Dash. Please follow the tasks below.
@@ -13,19 +24,3 @@ Tasks:
    2. Setup python and virtual environment for this app, remember to use the fixed `pyproject.toml`.
    3. How to run this app and how to access it without portforwarding.
 7. Push all the changes to your own repository on Github, and provide a link to your own repo in your submission in the last.
-
-
-## Updated Build instructions
-
-1. Clone this repository onto your machine (either use GH CLI or HTTPS)
-2. If you don't have python installed, then run "sudo apt install python3.13"
-3. Then, again if not installed, install pip: "sudo apt install python3-pip"
-4. Verify your installations by running "which pip" and "which python3"
-5. Enter the repository you cloned and run the following commands 
-   "python3 -m venv .dashboard"
-   "source .dashboard/bin/activate"
-6. You should see (.dashboard) appear all the way to the left of your CLI cursor. 
-7. Then, run "pip install ."
-8. If you encounter no errors, start the Dash server with "python3 -m debugging-q4.main"
-9. If there are no errors, the site should be hosted locally on "http://127.0.0.1:8050/"
-
